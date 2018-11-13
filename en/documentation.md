@@ -1,0 +1,16 @@
+- [Prolonge](#){.has-arrow .waves-effect .waves-dark}
+    - [Contribution Guide]({{baseUrl}}/docs/{{version}}/{{lang}}/contributions)
+- [Getting Started](#){.has-arrow .waves-effect .waves-dark}
+    - [Installation]({{baseUrl}}/docs/{{version}}/{{lang}}/installation)
+- [Modules](#){.has-arrow .waves-effect .waves-dark}
+    - [Generate]({{baseUrl}}/docs/{{version}}/{{lang}}/generate)
+    - [Namespaces]({{baseUrl}}/docs/{{version}}/{{lang}}/namespace)
+    - [Controllers]({{baseUrl}}/docs/{{version}}/{{lang}}/controllers)
+    - [Models]({{baseUrl}}/docs/{{version}}/{{lang}}/models)
+    - [Migrations]({{baseUrl}}/docs/{{version}}/{{lang}}/migrations)
+    - [Middlewares]({{baseUrl}}/docs/{{version}}/{{lang}}/middlewares)
+    - [Providers]({{baseUrl}}/docs/{{version}}/{{lang}}/providers)
+    - [Resources]({{baseUrl}}/docs/{{version}}/{{lang}}/resources)
+    - [Commands]({{baseUrl}}/docs/{{version}}/{{lang}}/commads)
+    - [Tests]({{baseUrl}}/docs/{{version}}/{{lang}}/tests)
+    - [Helpers]({{baseUrl}}/docs/{{version}}/{{lang}}/helpers)
