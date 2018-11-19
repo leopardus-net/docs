@@ -41,7 +41,7 @@ Laravel utiliza [Composer](https://getcomposer.org) para gestionar sus dependenc
 
 instalar Laravel emitiendo el comando Composer  `create-project` en su terminal:
 
-    composer create-project --prefer-dist leopardus/leopardus ecommerce
+    composer create-project leopardus/leopardus ecommerce
 
 #### Servidor de desarrollo local
 
