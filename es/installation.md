@@ -20,6 +20,7 @@ El framework Laravel tiene algunos requisitos del sistema. Por supuesto, todos e
 Sin embargo, si no está utilizando Homestead, deberá asegurarse de que su servidor cumpla con los siguientes requisitos:
 
 <div class="content-list" markdown="1">
+	
 - PHP >= 7.1.3
 - OpenSSL PHP Extension
 - PDO PHP Extension
@@ -76,6 +77,7 @@ Normalmente, esta cadena debe tener 32 caracteres de longitud. La clave se puede
 Leopardus casi no necesita ninguna otra configuración fuera de la caja. ¡Eres libre de empezar a desarrollar! Sin embargo, es posible que desee revisar el archivo `config/app.php` y su documentación. Contiene varias opciones, como el `timezone` y el `locale` que tal vez desee cambiar de acuerdo con su aplicación.
 
 <div class="content-list" markdown="1">
+
 - [Cache]({{baseUrl}}/docs/{{version}}/cache#configuration)
 - [Base de datos]({{baseUrl}}/docs/{{version}}/database#configuration)
 - [Sesiones]({{baseUrl}}/docs/{{version}}/session#configuration)
