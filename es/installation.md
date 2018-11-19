@@ -15,9 +15,9 @@
 <a name="server-requirements"></a>
 ### Requisitos del servidor
 
-El framework Laravel tiene algunos requisitos del sistema. Por supuesto, todos estos requisitos son cumplidos por la máquina virtual [Laravel Homestead](/docs/{{version}}/homestead), por lo que es altamente recomendable que utilice Homestead como su entorno de desarrollo local de Laravel.
+El sistema Leopardus tiene algunos requisitos del sistema. Por supuesto, todos estos requisitos son cumplidos por [Leopardus Cloud](https://cloud.leopardus.net), por lo que es altamente recomendable que utilice Leopardus Cloud como su proveedor de hosting.
 
-Sin embargo, si no está utilizando Homestead, deberá asegurarse de que su servidor cumpla con los siguientes requisitos:
+Sin embargo, si no está utilizando Leopardus Cloud, deberá asegurarse de que su servidor cumpla con los siguientes requisitos:
 
 <div class="content-list" markdown="1">
 	
@@ -49,14 +49,14 @@ Si tiene PHP instalado localmente y le gustaría usar el servidor de desarrollo 
 
     php artisan serve
 
-Por supuesto, las opciones de desarrollo local más sólidas están disponibles a través de [Leopardus](https://leopardus.net/download).
+Por supuesto, las opciones de desarrollo local más sólidas están disponibles a través de [Leopardus Cloud](https://cloud.leopardus.net).
 
 <a name="configuration"></a>
 ### Configuración
 
 #### Directorio publico
 
-Después de instalar Leopardus, debe configurar el documento / raíz web de su servidor web para que sea el directorio `public` . El `index.php` en este directorio sirve como el controlador frontal para todas las solicitudes HTTP que ingresan a su aplicación.
+Después de instalar Leopardus, debe configurar el documento / raíz de su servidor web para que sea el directorio `public` . El `index.php` en este directorio sirve como el controlador frontal para todas las solicitudes HTTP que ingresan a su aplicación.
 
 #### Archivos de configuración
 
@@ -64,11 +64,11 @@ Todos los archivos de configuración para el marco Laravel se almacenan en el di
 
 #### Permisos de directorio
 
-Después de instalar Leopardus, es posible que deba configurar algunos permisos. Los directorios dentro del `storage` y los directorios `bootstrap/cache`, `public/modules`, `resources\lang` y el archivo `.env` ubicado en la raíz del proyecto deben poder ser escritos por su servidor web o Leopardus no se ejecutará. Si está utilizando los servidores de Leopardus, estos permisos ya deberían estar configurados.
+Después de instalar Leopardus, es posible que deba configurar algunos permisos. Los directorios dentro del `storage`,  `resources/lang` y los directorios `bootstrap/cache`, `public/modules` y el archivo `.env` ubicado en la raíz del proyecto deben poder ser escritos por su servidor web o Leopardus no se ejecutará. Si está utilizando los servidores de [Leopardus Cloud](https://cloud.leopardus.net), estos permisos ya deberían estar configurados.
 
 #### Clave de aplicación
 
-Lo siguiente que debe hacer después de instalar Laravel es configurar su clave de aplicación en una cadena aleatoria. Si instaló Laravel a través de Composer o el instalador de Laravel, esta tecla ya se configuró con el comando `php artisan key:generate`.
+Lo siguiente que debe hacer después de instalar Leopardus es configurar su clave de aplicación en una cadena aleatoria. Si instaló Leopardus a través de Composer, esta tecla ya se configuró, sin embargo se puede configurar manualmente con el comando `php artisan key:generate`.
 
 Normalmente, esta cadena debe tener 32 caracteres de longitud. La clave se puede configurar en el archivo de entorno `.env`. Si no ha cambiado el nombre del archivo `.env.example` a `.env`, debe hacerlo ahora. **¡Si la clave de la aplicación no está configurada, sus sesiones de usuario y otros datos cifrados no serán seguros!**
 
