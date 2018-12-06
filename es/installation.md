@@ -32,7 +32,7 @@ Sin embargo, si no está utilizando Leopardus Cloud, deberá asegurarse de que s
 - BCMath PHP Extension
 </div>
 
-<a name="installing-laravel"></a>
+<a name="installing-leopardus"></a>
 ### Instalando Leopardus
 
 Laravel utiliza [Composer](https://getcomposer.org) para gestionar sus dependencias. Por lo tanto, antes de usar Leopardus, asegúrese de tener Composer instalado en su máquina.
